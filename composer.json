@@ -16,6 +16,8 @@
   },
   "require": {
     "php": "^8.5",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
     "comphp/session": "^0.3"
   },
   "require-dev": {

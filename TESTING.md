@@ -25,4 +25,4 @@ On Windows, use `vendor\bin\phpunit.bat`.
 
 ## Notes
 
-TODO: ADD NOTES ON WHAT THIS LIBRARY ACTUALLY DOES
+The unit suite uses a fake PDO implementation, so it verifies SQL generation, serialization, session lifecycle behavior, ID regeneration, invalidation, and garbage collection without requiring a live MySQL server.
